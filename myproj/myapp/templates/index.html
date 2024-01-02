@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Steller landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Parth</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href=" {% static 'assets/vendors/themify-icons/css/themify-icons.css' %} ">
+    <!-- Bootstrap + Steller main styles -->
+	<link rel="stylesheet" href=" {% static 'assets/css/steller.css' %} ">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- Page navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" data-spy="affix" data-offset-top="0">
+        <div class="container">
+            <a class="navbar-brand" href="{% url 'index' %}"><i class='uil uil-user'></i> <b>Parth</b></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href=" {% static '#home' %} ">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=" {% static '#about' %} ">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=" {% static '#service' %} ">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=" {% static '#skills' %} ">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=" {% static '#contact' %} ">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>          
+    </nav>
+    <!-- End of page navibation -->
+
+    <!-- Page Header -->
+    <header class="header" id="home">
+        <div class="container">
+            <div class="infos">
+                <h6 class="subtitle">Hello,I'm</h6>
+                <h6 class="title">Parth Patel</h6>
+                <p>Web Developer & Mobile Application Developer</p>     
+            </div>     
+        </div>
+    </header>
+    <!-- End of Page Header -->
+    
+    <!-- About section -->
+    <section id="about" class="section mt-3">
+        <div class="container mt-5">
+            <div class="row text-center text-md-left">
+                <div class="pl-md-4 col-md-9">
+                    <h6 class="title">Parth Patel</h6>
+                    <p class="subtitle">Web Developer & Mobile Application Developer</p>
+                    <p>To build career in a growing organization, where I can get opportunities to prove my abilities by Accepting Challenges, fulfilling the organizational goal and climb the career ladder through continuous learning and Commitment.</p>
+                    <p>I am a Quick Learner, and having Good Communication Skills, Time Management Abilities, Self Confidence and Social Media Skills.</p>                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service section -->
+    <section id="service" class="section">
+        <div class="container text-center">
+            <h6 class="section-title mb-4">My Services</h6>
+            <p class="mb-5 pb-4">I offer services fit for any website or app. I can quickly maximize timely deliverables <br> for real-time schemas.</p>
+
+            <div class="row">
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="icon ti-bar-chart"></i>
+                            <h5>Graphic Design</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="icon ti-desktop"></i>
+                            <h5>Web Development</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="icon ti-mobile"></i>
+                            <h5>App Development</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="icon ti-crown"></i>
+                            <h5>UI/UX Design</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Sectoin -->
+
+    <!-- Skills section -->
+    <section class="section">
+        <div class="container text-center">
+            <h6 class="section-title mb-4">My Skills</h6>
+            <p class="mb-5 pb-4">I am a quick learner and specialize in multitude of skills required for Web <br> Application Development and Product Design.</p>
+
+            <div class="row text-left">
+                <div class="col-sm-6">
+                    <h6 class="mb-3">HTML5</h6>
+                    <span>90%</span>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h6 class="mb-3">PHP</h6>
+                    <span>75%</span>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>75%</span></div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h6 class="mb-3">CSS3</h6>
+                    <span>85%</span>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>85%</span></div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h6 class="mb-3">Python</h6>
+                    <span>90%</span>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h6 class="mb-3">JavaScript</h6>
+                    <span>80%</span>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>80%</span></div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h6 class="mb-3">Photoshop</h6>
+                    <span>75%</span>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>75%</span></div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h6 class="mb-3">Canva</h6>
+                    <span>70%</span>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>70%</span></div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h6 class="mb-3">Figma</h6>
+                    <span>70%</span>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>70%</span></div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </section>
+    <!-- End of Skills sections -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="position-relative section">
+        <div class="container text-center">
+            <h6 class="subtitle">Contact</h6>
+            <h6 class="section-title mb-4">Get In Touch With Me</h6>
+            <p class="mb-5 pb-4">If you like my work and want to avail my services then drop me a<br> message using the contact form.</p>
+
+            <div class="contact text-left">
+                <div class="form">
+                    <h6 class="section-title mb-4">Get In Touch</h6>
+                    <form action="{% url 'contact' %}" method="post">
+                        {% csrf_token %}
+                        <div class="form-group">
+                            <input type="text" name="name" class="form-control" placeholder="Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" class="form-control" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" id="" cols="30" rows="5" class="form-control" placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block rounded w-lg">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-infos">
+                </div>                  
+            </div>
+        </div>     
+    </section>
+    <!-- End of Contact Section -->
+
+    <!-- Page Footer -->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-6">
+                    <h6 class="section-title">PARTH PATEL</h6>
+                    <h6 class="subtitle mb-4">Web Developer & Mobile Application Developer</h6>
+                    <p>&copy; 2024 All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer> 
+    <!-- End of page footer -->
+	
+	<!-- core  -->
+    <script src=" {% static 'assets/vendors/jquery/jquery-3.4.1.js' %} "></script>
+    <script src=" {% static 'assets/vendors/bootstrap/bootstrap.bundle.js' %} "></script>
+    <!-- bootstrap 3 affix -->
+	<script src=" {% static 'assets/vendors/bootstrap/bootstrap.affix.js' %} "></script>
+
+    <!-- steller js -->
+    <script src=" {% static 'assets/js/steller.js' %} "></script>
+
+</body>
+</html>
